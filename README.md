@@ -8,6 +8,7 @@
 MEAN.JS is a full-stack JavaScript open-source solution, which provides a solid starting point for [MongoDB](http://www.mongodb.org/), [Node.js](http://www.nodejs.org/), [Express](http://expressjs.com/), and [AngularJS](http://angularjs.org/) based applications. The idea is to solve the common issues with connecting those frameworks, build a robust framework to support daily development needs, and help developers use better practices while working with popular JavaScript components.
 
 ## Before You Begin
+This is my random addition!
 Before you begin we recommend you read about the basic building blocks that assemble a MEAN.JS application:
 * MongoDB - Go through [MongoDB Official Website](http://mongodb.org/) and proceed to their [Official Manual](http://docs.mongodb.org/manual/), which should help you understand NoSQL and MongoDB better.
 * Express - The best way to understand express is through its [Official Website](http://expressjs.com/), which has a [Getting Started](http://expressjs.com/starter/installing.html) guide, as well as an [ExpressJS Guide](http://expressjs.com/guide/error-handling.html) guide for general express topics. You can also go through this [StackOverflow Thread](http://stackoverflow.com/questions/8144214/learning-express-for-node-js) for more resources.
@@ -52,8 +53,8 @@ $ wget https://github.com/meanjs/mean/archive/master.zip -O meanjs.zip; unzip me
 
 Don't forget to rename **mean-master** after your project name.
 
-### Yo Generator		
--Another way would be to use the [Official Yo Generator](http://meanjs.org/generator.html), which generates a copy of the MEAN.JS 0.3.x boilerplate and supplies multiple sub-generators to ease your daily development cycles. 
+### Yo Generator
+-Another way would be to use the [Official Yo Generator](http://meanjs.org/generator.html), which generates a copy of the MEAN.JS 0.3.x boilerplate and supplies multiple sub-generators to ease your daily development cycles.
 
 ## Quick Install
 Once you've downloaded the boilerplate and installed all the prerequisites, you're just a few steps away from starting to develop your MEAN application.
@@ -171,9 +172,9 @@ Browse the live MEAN.JS example on [http://meanjs.herokuapp.com](http://meanjs.h
 Cloud Foundry is an open source platform-as-a-service (PaaS).  The MEANJS project
 can easily be deployed to any Cloud Foundry instance.  The easiest way to deploy the
 MEANJS project to Cloud Foundry is to use a public hosted instance.  The two most popular
-instances are [Pivotal Web Services](https://run.pivotal.io/) and 
+instances are [Pivotal Web Services](https://run.pivotal.io/) and
 [IBM Bluemix](https://bluemix.net).  Both provide free trials and support pay-as-you-go models
-for hosting applications in the cloud.  After you have an account follow the below steps to 
+for hosting applications in the cloud.  After you have an account follow the below steps to
 deploy MEANJS.
 
 * Install the [Cloud Foundry command line tools](http://docs.cloudfoundry.org/devguide/installcf/install-go-cli.html).
@@ -190,7 +191,7 @@ deploy MEANJS.
 * Deploy MEANJS to Cloud Foundry
   * `$ cf push`
 
-After `cf push` completes you will see the URL to your running MEANJS application 
+After `cf push` completes you will see the URL to your running MEANJS application
 (your URL will be different).
 
     requested state: started
